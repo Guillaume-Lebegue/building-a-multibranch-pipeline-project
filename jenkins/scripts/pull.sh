@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
 
-git pull master
+git pull origin/master
