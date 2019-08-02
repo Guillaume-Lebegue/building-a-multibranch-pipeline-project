@@ -7,7 +7,7 @@ pipeline {
             }
         }
         stage('Build') {
-            steps 
+            steps {
                 sh 'echo "Hello everyone i\'m Gav!"'
             }
         }
