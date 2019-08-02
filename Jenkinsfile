@@ -6,5 +6,10 @@ pipeline {
                 sh 'echo "Hello world!"'
             }
         }
+        stage('Pull') {
+            steps {
+                sh './jenkins/scripts/pull.sh'
+            }
+        }
     }
 }
