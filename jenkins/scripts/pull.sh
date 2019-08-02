@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 
-git checkout master
+cd /home/lguillaume/Bureau/building-a-multibranch-pipeline-project/
 git pull origin master
