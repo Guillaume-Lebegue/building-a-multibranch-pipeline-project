@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        git(url: 'https://github.com/Guillaume-Lebegue/building-a-multibranch-pipeline-project.git', branch: 'master', poll: true, changelog: true)
+        git(url: 'https://github.com/Guillaume-Lebegue/building-a-multibranch-pipeline-project.git', branch: 'master', changelog: true)
         sh 'echo "i\'m Dav"'
       }
     }
