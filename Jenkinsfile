@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "i\'m Dav"'
+                sh 'echo "We're the slow mo guys !"'
             }
         }
     }
